@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="parking_options">
+        <item>Select Parking</item>
+        <item>Yes</item>
+        <item>No</item>
+    </string-array>
+
+    <string-array name="difficulty_levels">
+        <item>Select Difficulty</item>
+        <item>Easy</item>
+        <item>Moderate</item>
+        <item>Hard</item>
+        <item>Expert</item>
+    </string-array>
+
+    <string-array name="weather_conditions">
+        <item>Select Weather</item>
+        <item>Sunny</item>
+        <item>Cloudy</item>
+        <item>Rainy</item>
+        <item>Snowy</item>
+        <item>Windy</item>
+        <item>Foggy</item>
+    </string-array>
+</resources>

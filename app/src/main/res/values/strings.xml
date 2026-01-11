@@ -1,0 +1,120 @@
+<resources>
+    <string name="app_name">M-Hike</string>
+
+    <!-- Main Activity -->
+    <string name="main_title">M-Hike</string>
+    <string name="main_subtitle">Your Hiking Companion</string>
+    <string name="btn_add_hike">Add New Hike</string>
+    <string name="btn_view_hikes">View All Hikes</string>
+    <string name="btn_search_hikes">Search Hikes</string>
+
+    <!-- Add Hike Activity -->
+    <string name="add_hike_title">Add New Hike</string>
+    <string name="edit_hike_title">Edit Hike</string>
+    <string name="hint_hike_name">Hike Name *</string>
+    <string name="hint_location">Location *</string>
+    <string name="hint_date">Date of Hike *</string>
+    <string name="hint_length">Length (km) *</string>
+    <string name="hint_description">Description (optional)</string>
+    <string name="hint_weather">Weather Condition</string>
+    <string name="hint_duration">Estimated Duration</string>
+    <string name="label_parking">Parking Available *</string>
+    <string name="label_difficulty">Difficulty Level *</string>
+    <string name="btn_save">Save</string>
+    <string name="btn_cancel">Cancel</string>
+    <string name="btn_use_location">Use Current Location</string>
+
+    <!-- Validation Errors -->
+    <string name="error_name_required">Name is required</string>
+    <string name="error_location_required">Location is required</string>
+    <string name="error_date_required">Date is required</string>
+    <string name="error_length_required">Length is required</string>
+    <string name="error_length_invalid">Length must be greater than 0</string>
+    <string name="error_parking_required">Please select parking availability</string>
+    <string name="error_difficulty_required">Please select difficulty level</string>
+    <string name="error_weather_required">Please select weather condition</string>
+
+    <!-- Confirmation Activity -->
+    <string name="confirm_title">Confirm Hike Details</string>
+    <string name="btn_edit">Edit</string>
+    <string name="btn_confirm">Confirm</string>
+    <string name="label_name">Name:</string>
+    <string name="label_location">Location:</string>
+    <string name="label_date">Date:</string>
+    <string name="label_parking_value">Parking:</string>
+    <string name="label_length">Length:</string>
+    <string name="label_difficulty_value">Difficulty:</string>
+    <string name="label_description">Description:</string>
+    <string name="label_weather">Weather:</string>
+    <string name="label_duration">Duration:</string>
+
+    <!-- View Hikes Activity -->
+    <string name="view_hikes_title">All Hikes</string>
+    <string name="empty_hikes">No hikes recorded yet.\nTap + to add your first hike!</string>
+    <string name="menu_delete_all">Delete All</string>
+    <string name="dialog_delete_all_title">Delete All Hikes?</string>
+    <string name="dialog_delete_all_message">This will delete all hikes and their observations. This action cannot be undone.</string>
+
+    <!-- Hike Detail Activity -->
+    <string name="hike_detail_title">Hike Details</string>
+    <string name="btn_delete">Delete</string>
+    <string name="btn_add_observation">Add Observation</string>
+    <string name="btn_view_observations">View Observations</string>
+    <string name="dialog_delete_hike_title">Delete Hike?</string>
+    <string name="dialog_delete_hike_message">This will also delete all observations for this hike.</string>
+    <string name="observations_count">%d observation(s)</string>
+
+    <!-- Add Observation Activity -->
+    <string name="add_observation_title">Add Observation</string>
+    <string name="edit_observation_title">Edit Observation</string>
+    <string name="hint_observation">Observation *</string>
+    <string name="hint_time">Time *</string>
+    <string name="hint_comments">Additional Comments (optional)</string>
+    <string name="error_observation_required">Observation is required</string>
+    <string name="label_hike_name">For Hike:</string>
+
+    <!-- View Observations Activity -->
+    <string name="view_observations_title">Observations</string>
+    <string name="empty_observations">No observations yet.\nTap + to add an observation!</string>
+    <string name="dialog_delete_observation_title">Delete Observation?</string>
+    <string name="dialog_delete_observation_message">This action cannot be undone.</string>
+
+    <!-- Search Activity -->
+    <string name="search_title">Search Hikes</string>
+    <string name="hint_search">Search by name</string>
+    <string name="btn_search">Search</string>
+    <string name="btn_advanced_search">Advanced Search</string>
+    <string name="hint_min_length">Min Length (km)</string>
+    <string name="hint_max_length">Max Length (km)</string>
+    <string name="hint_start_date">Start Date</string>
+    <string name="hint_end_date">End Date</string>
+    <string name="btn_clear">Clear</string>
+    <string name="empty_search">No hikes found</string>
+    <string name="results_count">Found %d hike(s)</string>
+    <string name="advanced_search_title">Advanced Search Options</string>
+
+    <!-- Format -->
+    <string name="km_format">%.2f km</string>
+
+    <!-- Success Messages -->
+    <string name="success_hike_added">Hike added successfully</string>
+    <string name="success_hike_updated">Hike updated successfully</string>
+    <string name="success_hike_deleted">Hike deleted</string>
+    <string name="success_all_deleted">All hikes deleted</string>
+    <string name="success_observation_added">Observation added</string>
+    <string name="success_observation_updated">Observation updated</string>
+    <string name="success_observation_deleted">Observation deleted</string>
+
+    <!-- Error Messages -->
+    <string name="error_database">Database error occurred</string>
+    <string name="error_loading">Error loading data</string>
+    <string name="error_saving">Error saving data</string>
+    <string name="error_location_permission">Location permission denied</string>
+    <string name="error_location_unavailable">Unable to get current location</string>
+
+    <!-- Common -->
+    <string name="btn_ok">OK</string>
+    <string name="btn_yes">Yes</string>
+    <string name="btn_no">No</string>
+    <string name="loading">Loading…</string>
+</resources>

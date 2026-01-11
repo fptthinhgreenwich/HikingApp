@@ -1,0 +1,20 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(dir:*)",
+      "Bash(if not exist:*)",
+      "Bash(gradlew.bat assembleDebug:*)",
+      "Bash(./gradlew.bat:*)",
+      "Bash(adb logcat:*)",
+      "Bash(.gradlew.bat assembleDebug)",
+      "Bash(./gradlew assembleDebug:*)",
+      "Bash(del \"C:\\Users\\nguye\\AndroidStudioProjects\\Coursework\\app\\src\\main\\java\\com\\example\\coursework\\activities\\StatisticsActivity.java\")",
+      "Bash(del \"C:\\Users\\nguye\\AndroidStudioProjects\\Coursework\\app\\src\\main\\res\\layout\\activity_statistics.xml\")",
+      "Bash(del \"C:\\Users\\nguye\\AndroidStudioProjects\\Coursework\\app\\src\\main\\java\\com\\example\\coursework\\utils\\StringUtils.java\")",
+      "Bash(del \"C:\\Users\\nguye\\AndroidStudioProjects\\Coursework\\nul\")",
+      "Bash(findstr:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
